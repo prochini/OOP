@@ -1,4 +1,4 @@
-```js
+
 let dog = {
   sound: 'woof',
   talk: function(){
@@ -10,4 +10,3 @@ dog.talk()
 let talkFunction = dog.talk
 let boundFunction = talkFunction.bind(dog)
 boundFunction()
-```
